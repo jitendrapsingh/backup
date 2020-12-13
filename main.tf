@@ -3,6 +3,7 @@ terraform {
     bucket = "sftptestjitendra"
     key    = "Backup_Job/tffile"
     region = "eu-west-1"
+   }
   }
 
 resource "aws_backup_vault" "testvault" {
