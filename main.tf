@@ -4,7 +4,7 @@ resource "aws_backup_vault" "testvault" {
 
 
 resource "aws_backup_plan" "plan1" {
-  name = "plan1"
+  name = var.Plan_Name
 
   rule {
     rule_name         = "Rul1"
